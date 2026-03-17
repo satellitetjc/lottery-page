@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>300人限定 · 多等级抽奖</title>
+    <title>佛山地铁AI训练师培训优惠抽奖</title>
     <style>
         * { box-sizing: border-box; font-family: system-ui, -apple-system, 'Helvetica Neue', sans-serif; }
         body { background: linear-gradient(145deg, #f093fb 0%, #f5576c 100%); min-height: 100vh; display: flex; justify-content: center; align-items: center; margin: 0; padding: 16px; }
@@ -24,15 +24,15 @@
         .footer { color: #64748b; font-size: 14px; margin-top: 24px; border-top: 1px dashed #cbd5e1; padding-top: 20px; }
     </style>
     <!-- 引入 CloudBase SDK -->
-    <script src="https://unpkg.com/@cloudbase/js-sdk@2.0.0/lib/cloudbase.min.js"></script>
+    <script src="./cloudbase.min.js"></script>
 </head>
 <body>
 <div class="card">
     <h2>🎁 幸运大抽奖</h2>
-    <div class="subtitle">总名额300人 · 先到先得</div>
+    <div class="subtitle">先到先得</div>
     <div class="info-bar" id="countDisplay">加载剩余名额...</div>
 
-    <input type="text" id="name" placeholder="真实姓名" autocomplete="off">
+    <input type="text" id="name" placeholder="姓名" autocomplete="off">
     <input type="tel" id="mobile" placeholder="手机号码" maxlength="11" autocomplete="off">
     <div id="errorMsg" class="error-msg"></div>
 
